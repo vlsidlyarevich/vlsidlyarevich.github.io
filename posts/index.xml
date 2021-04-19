@@ -6,14 +6,25 @@
     <description>Recent content in Posts on Pepestic blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Apr 2021 20:18:43 +0300</lastBuildDate><atom:link href="https://vlsidlyarevich.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Feb 2021 20:18:43 +0300</lastBuildDate><atom:link href="https://vlsidlyarevich.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>https://vlsidlyarevich.github.io/posts/my-first-post/</link>
-      <pubDate>Wed, 14 Apr 2021 20:18:43 +0300</pubDate>
+      <title>Stepik - 2.3. Наибольший общий делитель</title>
+      <link>https://vlsidlyarevich.github.io/posts/2021-02-19/</link>
+      <pubDate>Fri, 19 Feb 2021 20:18:43 +0300</pubDate>
       
-      <guid>https://vlsidlyarevich.github.io/posts/my-first-post/</guid>
-      <description></description>
+      <guid>https://vlsidlyarevich.github.io/posts/2021-02-19/</guid>
+      <description>По данным двум числам 1≤a,b≤2⋅10^{9} найдите их наибольший общий делитель.
+import java.math.BigInteger; import java.util.Scanner; /** * Main * * @author Vladislav Sidlyarevich &amp;lt;vlsidlyarevich@gmail.com&amp;gt; * Created on 2/19/21. */ public class Main { //По данным двум числам 1≤a,b≤2⋅10^{9}  //найдите их наибольший общий делитель.  public static void main(String[] args) { Scanner scanner = new Scanner(System.in); BigInteger a = scanner.nextBigInteger(); BigInteger b = scanner.nextBigInteger(); scanner.close(); System.out.println(calculate(a, b)); } private static BigInteger calculate(BigInteger a, BigInteger b) { if (a.</description>
+    </item>
+    
+    <item>
+      <title>Stepik - 2.2. Последняя цифра большого числа Фибоначчи</title>
+      <link>https://vlsidlyarevich.github.io/posts/2021-02-16/</link>
+      <pubDate>Tue, 16 Feb 2021 22:38:43 +0300</pubDate>
+      
+      <guid>https://vlsidlyarevich.github.io/posts/2021-02-16/</guid>
+      <description>Дано число 1≤n≤10^7, необходимо найти последнюю цифру n-го числа Фибоначчи. Как мы помним, числа Фибоначчи растут очень быстро, поэтому при их вычислении нужно быть аккуратным с переполнением. В данной задаче, впрочем, этой проблемы можно избежать, поскольку нас интересует только последняя цифра числа Фибоначчи: если 0≤a,b≤9 — последние цифры чисел F(i) F и F(i+1) соответственно, то (a+b) mod10 — последняя цифра числа F(i+2).
+import java.util.Scanner; public class Main { public static void main(String[] args) { Scanner scanner = new Scanner(System.</description>
     </item>
     
   </channel>
