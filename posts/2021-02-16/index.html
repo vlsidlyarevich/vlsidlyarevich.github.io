@@ -13,12 +13,10 @@
     
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Stepik - 2.2. Последняя цифра большого числа Фибоначчи"/>
-<meta name="twitter:description" content="Дано число 1≤n≤10^7, необходимо найти последнюю цифру n-го числа Фибоначчи. Как мы помним, числа Фибоначчи растут очень быстро, поэтому при их вычислении нужно быть аккуратным с переполнением. В данной задаче, впрочем, этой проблемы можно избежать, поскольку нас интересует только последняя цифра числа Фибоначчи: если 0≤a,b≤9 — последние цифры чисел F(i) F и F(i&#43;1) соответственно, то (a&#43;b) mod10 — последняя цифра числа F(i&#43;2).
-import java.util.Scanner; public class Main { public static void main(String[] args) { Scanner scanner = new Scanner(System."/>
+<meta name="twitter:description" content="import java.util.Scanner; public class Main { public static void main(String[] args) { Scanner scanner = new Scanner(System.in); int toCalculate = scanner.nextInt(); scanner.close(); System.out.println(calculateFibonacci(toCalculate)); } private static int calculateFibonacci(int number) { if (number == 1) return 1; int[] fibbonaccis = new int[number &#43; 1]; fibbonaccis[0] = 0; fibbonaccis[1] = 1; for (int i = 2; i &lt; fibbonaccis.length; i&#43;&#43;) { fibbonaccis[i] = getLastSymbol(fibbonaccis[i - 1] &#43; fibbonaccis[i - 2]); } return fibbonaccis[fibbonaccis."/>
 
     <meta property="og:title" content="Stepik - 2.2. Последняя цифра большого числа Фибоначчи" />
-<meta property="og:description" content="Дано число 1≤n≤10^7, необходимо найти последнюю цифру n-го числа Фибоначчи. Как мы помним, числа Фибоначчи растут очень быстро, поэтому при их вычислении нужно быть аккуратным с переполнением. В данной задаче, впрочем, этой проблемы можно избежать, поскольку нас интересует только последняя цифра числа Фибоначчи: если 0≤a,b≤9 — последние цифры чисел F(i) F и F(i&#43;1) соответственно, то (a&#43;b) mod10 — последняя цифра числа F(i&#43;2).
-import java.util.Scanner; public class Main { public static void main(String[] args) { Scanner scanner = new Scanner(System." />
+<meta property="og:description" content="import java.util.Scanner; public class Main { public static void main(String[] args) { Scanner scanner = new Scanner(System.in); int toCalculate = scanner.nextInt(); scanner.close(); System.out.println(calculateFibonacci(toCalculate)); } private static int calculateFibonacci(int number) { if (number == 1) return 1; int[] fibbonaccis = new int[number &#43; 1]; fibbonaccis[0] = 0; fibbonaccis[1] = 1; for (int i = 2; i &lt; fibbonaccis.length; i&#43;&#43;) { fibbonaccis[i] = getLastSymbol(fibbonaccis[i - 1] &#43; fibbonaccis[i - 2]); } return fibbonaccis[fibbonaccis." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://vlsidlyarevich.github.io/posts/2021-02-16/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-02-16T22:38:43&#43;03:00" />
@@ -99,10 +97,6 @@ import java.util.Scanner; public class Main { public static void main(String[] a
     </header>
     <div class="post-content">
       <!-- raw HTML omitted -->
-<p>Дано число 1≤n≤10^7, необходимо найти последнюю цифру n-го числа Фибоначчи. Как мы помним, числа Фибоначчи растут очень
-быстро, поэтому при их вычислении нужно быть аккуратным с переполнением. В данной задаче, впрочем, этой проблемы можно
-избежать, поскольку нас интересует только последняя цифра числа Фибоначчи: если 0≤a,b≤9 — последние цифры чисел F(i) F и
-F(i+1) соответственно, то (a+b) mod10 — последняя цифра числа F(i+2).</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#f92672">import</span> java.util.Scanner<span style="color:#f92672">;</span>
 
 <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Main</span> <span style="color:#f92672">{</span>
