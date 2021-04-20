@@ -13,7 +13,8 @@
       <pubDate>Sun, 14 Mar 2021 21:49:00 +0300</pubDate>
       
       <guid>https://vlsidlyarevich.github.io/posts/2021-03-14-2/</guid>
-      <description>import java.util.Scanner; /** * Main * * @author Vladislav Sidlyarevich &amp;lt;vlsidlyarevich@gmail.com&amp;gt; * Created on 3/7/21. */ public class Main { //По данному числу 1≤n≤10^9 найдите максимальное число k,  //для которого n можно представить как сумму k различных натуральных слагаемых.  //Выведите в первой строке число k, во второй — k слагаемых.  public void run() { Scanner scanner = new Scanner(System.in).useDelimiter(&amp;#34;\n&amp;#34;); int n = Integer.parseInt(scanner.nextLine()); scanner.close(); String result = calculate(n); System.</description>
+      <description>Описание задачи По данному числу 1≤n≤10^9 найдите максимальное число k, для которого n можно представить как сумму k различных натуральных слагаемых. Выведите в первой строке число k, во второй — k слагаемых.
+import java.util.Scanner; /** * Main * * @author Vladislav Sidlyarevich &amp;lt;vlsidlyarevich@gmail.com&amp;gt; * Created on 3/7/21. */ public class Main { //По данному числу 1≤n≤10^9 найдите максимальное число k,  //для которого n можно представить как сумму k различных натуральных слагаемых.</description>
     </item>
     
     <item>
@@ -22,7 +23,8 @@
       <pubDate>Sun, 14 Mar 2021 20:18:43 +0300</pubDate>
       
       <guid>https://vlsidlyarevich.github.io/posts/2021-03-14/</guid>
-      <description>import java.util.ArrayList; import java.util.Collections; import java.util.List; import java.util.Scanner; /** * Main * * @author Vladislav Sidlyarevich &amp;lt;vlsidlyarevich@gmail.com&amp;gt; * Created on 3/7/21. */ public class Main { private List&amp;lt;Item&amp;gt; items = new ArrayList&amp;lt;&amp;gt;(); public void run() { Scanner scanner = new Scanner(System.in).useDelimiter(&amp;#34;\n&amp;#34;); String[] input = scanner.nextLine().split(&amp;#34;\\s+&amp;#34;); int itemsSize = Integer.parseInt(input[0]); int freeSpace = Integer.parseInt(input[1]); for (int i = 0; i &amp;lt; itemsSize; i++) { String[] item = scanner.nextLine().split(&amp;#34;\\s+&amp;#34;); items.add(new Item(Integer.parseInt(item[0]), Integer.parseInt(item[1]))); } scanner.</description>
+      <description>Описание задачи Первая строка содержит количество предметов 1≤n≤10^3 и вместимость рюкзака 0≤W≤2⋅10^6. Каждая из следующих nn строк задаёт стоимость 0≤ci≤2⋅10^6 и объём 0&amp;lt;wi≤2⋅10^6 предмета (n, W, c, w) — целые числа). Выведите максимальную стоимость частей предметов (от каждого предмета можно отделить любую часть, стоимость и объём при этом пропорционально уменьшатся), помещающихся в данный рюкзак, с точностью не менее трёх знаков после запятой.
+Надежный шаг Надежным шагом является выбор максимального кол-ва предметов с наибольшей стоимостью удельной единицы Сначала нужно отсортировать предметы в порядке уменьшения стоимости удельной единицы а после брать по максимуму</description>
     </item>
     
     <item>
@@ -31,7 +33,8 @@
       <pubDate>Wed, 10 Mar 2021 20:18:43 +0300</pubDate>
       
       <guid>https://vlsidlyarevich.github.io/posts/2021-03-10/</guid>
-      <description>import java.util.ArrayList; import java.util.Collections; import java.util.List; import java.util.Scanner; /** * Main * * @author Vladislav Sidlyarevich &amp;lt;vlsidlyarevich@gmail.com&amp;gt; * Created on 3/7/21. */ public class Main { private List&amp;lt;Point&amp;gt; points = new ArrayList&amp;lt;&amp;gt;(); public void run() { Scanner scanner = new Scanner(System.in).useDelimiter(&amp;#34;\n&amp;#34;); ; int n = Integer.parseInt(scanner.nextLine()); for (int i = 0; i &amp;lt; n; i++) { String[] coordinates = scanner.nextLine().split(&amp;#34;\\s+&amp;#34;); points.add(new Point(Long.parseLong(coordinates[0]), Long.parseLong(coordinates[1]))); } scanner.close(); List&amp;lt;Long&amp;gt; result = calculate(); System.out.println(result.size()); System.</description>
+      <description>Описание задачи По данным n отрезкам необходимо найти множество точек минимального размера, для которого каждый из отрезков содержит хотя бы одну из точек. В первой строке дано число 1≤n≤100 отрезков. Каждая из последующих nn строк содержит по два числа 0≤l≤r≤10^9, задающих начало и конец отрезка. Выведите оптимальное число m точек и сами m точек. Если таких множеств точек несколько, выведите любое из них.
+Надежный шаг Надежным шагом является выбор правой точки отрезка который ближе всех к началу с последующим удалением всех отрезков которые точка захватила</description>
     </item>
     
     <item>
@@ -40,7 +43,8 @@
       <pubDate>Fri, 19 Feb 2021 20:18:43 +0300</pubDate>
       
       <guid>https://vlsidlyarevich.github.io/posts/2021-02-19/</guid>
-      <description>import java.math.BigInteger; import java.util.Scanner; /** * Main * * @author Vladislav Sidlyarevich &amp;lt;vlsidlyarevich@gmail.com&amp;gt; * Created on 2/19/21. */ public class Main { //По данным двум числам 1≤a,b≤2⋅10^{9}  //найдите их наибольший общий делитель.  public static void main(String[] args) { Scanner scanner = new Scanner(System.in); BigInteger a = scanner.nextBigInteger(); BigInteger b = scanner.nextBigInteger(); scanner.close(); System.out.println(calculate(a, b)); } private static BigInteger calculate(BigInteger a, BigInteger b) { if (a.compareTo(BigInteger.ZERO) == 0) return b; if (b.</description>
+      <description>Описание задачи По данным двум числам 1≤a,b≤2⋅10^{9} найдите их наибольший общий делитель.
+import java.math.BigInteger; import java.util.Scanner; /** * Main * * @author Vladislav Sidlyarevich &amp;lt;vlsidlyarevich@gmail.com&amp;gt; * Created on 2/19/21. */ public class Main { //По данным двум числам 1≤a,b≤2⋅10^{9}  //найдите их наибольший общий делитель.  public static void main(String[] args) { Scanner scanner = new Scanner(System.in); BigInteger a = scanner.nextBigInteger(); BigInteger b = scanner.nextBigInteger(); scanner.close(); System.out.println(calculate(a, b)); } private static BigInteger calculate(BigInteger a, BigInteger b) { if (a.</description>
     </item>
     
     <item>
@@ -49,7 +53,8 @@
       <pubDate>Tue, 16 Feb 2021 22:38:43 +0300</pubDate>
       
       <guid>https://vlsidlyarevich.github.io/posts/2021-02-16/</guid>
-      <description>import java.util.Scanner; public class Main { public static void main(String[] args) { Scanner scanner = new Scanner(System.in); int toCalculate = scanner.nextInt(); scanner.close(); System.out.println(calculateFibonacci(toCalculate)); } private static int calculateFibonacci(int number) { if (number == 1) return 1; int[] fibbonaccis = new int[number + 1]; fibbonaccis[0] = 0; fibbonaccis[1] = 1; for (int i = 2; i &amp;lt; fibbonaccis.length; i++) { fibbonaccis[i] = getLastSymbol(fibbonaccis[i - 1] + fibbonaccis[i - 2]); } return fibbonaccis[fibbonaccis.</description>
+      <description>Описание задачи Дано число 1≤n≤10^7, необходимо найти последнюю цифру n-го числа Фибоначчи. Как мы помним, числа Фибоначчи растут очень быстро, поэтому при их вычислении нужно быть аккуратным с переполнением. В данной задаче, впрочем, этой проблемы можно избежать, поскольку нас интересует только последняя цифра числа Фибоначчи: если 0≤a,b≤9 — последние цифры чисел F(i) F и F(i+1) соответственно, то (a+b) mod10 — последняя цифра числа F(i+2).
+import java.util.Scanner; public class Main { public static void main(String[] args) { Scanner scanner = new Scanner(System.</description>
     </item>
     
   </channel>

@@ -13,10 +13,12 @@
     
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Stepik - 4.1. Задача о расписании"/>
-<meta name="twitter:description" content="import java.util.ArrayList; import java.util.Collections; import java.util.List; import java.util.Scanner; /** * Main * * @author Vladislav Sidlyarevich &lt;vlsidlyarevich@gmail.com&gt; * Created on 3/7/21. */ public class Main { private List&lt;Point&gt; points = new ArrayList&lt;&gt;(); public void run() { Scanner scanner = new Scanner(System.in).useDelimiter(&#34;\n&#34;); ; int n = Integer.parseInt(scanner.nextLine()); for (int i = 0; i &lt; n; i&#43;&#43;) { String[] coordinates = scanner.nextLine().split(&#34;\\s&#43;&#34;); points.add(new Point(Long.parseLong(coordinates[0]), Long.parseLong(coordinates[1]))); } scanner.close(); List&lt;Long&gt; result = calculate(); System.out.println(result.size()); System."/>
+<meta name="twitter:description" content="Описание задачи По данным n отрезкам необходимо найти множество точек минимального размера, для которого каждый из отрезков содержит хотя бы одну из точек. В первой строке дано число 1≤n≤100 отрезков. Каждая из последующих nn строк содержит по два числа 0≤l≤r≤10^9, задающих начало и конец отрезка. Выведите оптимальное число m точек и сами m точек. Если таких множеств точек несколько, выведите любое из них.
+Надежный шаг Надежным шагом является выбор правой точки отрезка который ближе всех к началу с последующим удалением всех отрезков которые точка захватила"/>
 
     <meta property="og:title" content="Stepik - 4.1. Задача о расписании" />
-<meta property="og:description" content="import java.util.ArrayList; import java.util.Collections; import java.util.List; import java.util.Scanner; /** * Main * * @author Vladislav Sidlyarevich &lt;vlsidlyarevich@gmail.com&gt; * Created on 3/7/21. */ public class Main { private List&lt;Point&gt; points = new ArrayList&lt;&gt;(); public void run() { Scanner scanner = new Scanner(System.in).useDelimiter(&#34;\n&#34;); ; int n = Integer.parseInt(scanner.nextLine()); for (int i = 0; i &lt; n; i&#43;&#43;) { String[] coordinates = scanner.nextLine().split(&#34;\\s&#43;&#34;); points.add(new Point(Long.parseLong(coordinates[0]), Long.parseLong(coordinates[1]))); } scanner.close(); List&lt;Long&gt; result = calculate(); System.out.println(result.size()); System." />
+<meta property="og:description" content="Описание задачи По данным n отрезкам необходимо найти множество точек минимального размера, для которого каждый из отрезков содержит хотя бы одну из точек. В первой строке дано число 1≤n≤100 отрезков. Каждая из последующих nn строк содержит по два числа 0≤l≤r≤10^9, задающих начало и конец отрезка. Выведите оптимальное число m точек и сами m точек. Если таких множеств точек несколько, выведите любое из них.
+Надежный шаг Надежным шагом является выбор правой точки отрезка который ближе всех к началу с последующим удалением всех отрезков которые точка захватила" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://vlsidlyarevich.github.io/posts/2021-03-10/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-03-10T20:18:43&#43;03:00" />
@@ -96,8 +98,14 @@
       </div>
     </header>
     <div class="post-content">
-      <!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+      <h3 id="описание-задачи">Описание задачи</h3>
+<p>По данным n отрезкам необходимо найти множество точек минимального размера, для которого каждый из отрезков содержит хотя бы одну из точек.
+В первой строке дано число 1≤n≤100 отрезков. Каждая из последующих nn строк содержит по два числа 0≤l≤r≤10^9,
+задающих начало и конец отрезка.
+Выведите оптимальное число m точек и сами m точек. Если таких множеств точек несколько, выведите любое из них.</p>
+<h5 id="надежный-шаг">Надежный шаг</h5>
+<p>Надежным шагом является выбор правой точки отрезка который ближе всех к началу
+с последующим удалением всех отрезков которые точка захватила</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#f92672">import</span> java.util.ArrayList<span style="color:#f92672">;</span>
 <span style="color:#f92672">import</span> java.util.Collections<span style="color:#f92672">;</span>
 <span style="color:#f92672">import</span> java.util.List<span style="color:#f92672">;</span>
