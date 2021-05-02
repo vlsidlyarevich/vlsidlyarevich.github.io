@@ -6,7 +6,17 @@
     <description>Recent content on Pepestic blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Mar 2021 21:49:00 +0300</lastBuildDate><atom:link href="https://vlsidlyarevich.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 May 2021 19:45:00 +0300</lastBuildDate><atom:link href="https://vlsidlyarevich.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stepik - 4.2. Коды Хаффмана</title>
+      <link>https://vlsidlyarevich.github.io/posts/2021-04-28/</link>
+      <pubDate>Sun, 02 May 2021 19:45:00 +0300</pubDate>
+      
+      <guid>https://vlsidlyarevich.github.io/posts/2021-04-28/</guid>
+      <description>Описание задачи По данной непустой строке ss длины не более 10^4, состоящей из строчных букв латинского алфавита, постройте оптимальный беспрефиксный код. В первой строке выведите количество различных букв k, встречающихся в строке, и размер получившейся закодированной строки. В следующих k строках запишите коды букв в формате &amp;ldquo;letter: code&amp;rdquo;. В последней строке выведите закодированную строку.
+Надежный шаг Чтобы решить данную задачу нужно посчитать частоту вхождения каждого символа в строку а после построить дерево где листья - символы имеющие свой вес (частота вхождения) а узлы - сумма всех нижестоящих узлов/листьев.</description>
+    </item>
+    
     <item>
       <title>Stepik - 4.1. Непрерывные слагаемые</title>
       <link>https://vlsidlyarevich.github.io/posts/2021-03-14-2/</link>
