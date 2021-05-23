@@ -6,13 +6,23 @@
     <description>Recent content in stepik on Pepestic blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 May 2021 19:22:30 +0300</lastBuildDate><atom:link href="https://vlsidlyarevich.github.io/tags/stepik/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 May 2021 15:53:35 +0300</lastBuildDate><atom:link href="https://vlsidlyarevich.github.io/tags/stepik/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stepik - 6.4. Число инверсий в массиве</title>
+      <link>https://vlsidlyarevich.github.io/posts/2021-05-23/</link>
+      <pubDate>Sun, 23 May 2021 15:53:35 +0300</pubDate>
+      
+      <guid>https://vlsidlyarevich.github.io/posts/2021-05-23/</guid>
+      <description>Описание задачи Первая строка содержит число 1≤n≤10^5, вторая — массив A[1…n], содержащий натуральные числа, не превосходящие 10^9. Необходимо посчитать число пар индексов 1≤i&amp;lt;j≤n, для которых A[i]&amp;gt;A[j]. (Такая пара элементов называется инверсией массива. Количество инверсий в массиве является в некотором смысле его мерой неупорядоченности: например, в упорядоченном по неубыванию массиве инверсий нет вообще, а в массиве, упорядоченном по убыванию, инверсию образуют каждые два элемента.)
+import java.util.ArrayList; import java.util.Arrays; import java.util.List; import java.</description>
+    </item>
+    
     <item>
       <title>Stepik - 4.2. Расшифровка Кодов Хаффмана</title>
-      <link>https://vlsidlyarevich.github.io/posts/2021-06-05/</link>
+      <link>https://vlsidlyarevich.github.io/posts/2021-05-06/</link>
       <pubDate>Thu, 06 May 2021 19:22:30 +0300</pubDate>
       
-      <guid>https://vlsidlyarevich.github.io/posts/2021-06-05/</guid>
+      <guid>https://vlsidlyarevich.github.io/posts/2021-05-06/</guid>
       <description>Описание задачи Восстановите строку по её коду и беспрефиксному коду символов.
 В первой строке входного файла заданы два целых числа k и l через пробел — количество различных букв, встречающихся в строке, и размер получившейся закодированной строки, соответственно. В следующих k строках записаны коды букв в формате &amp;ldquo;letter: code&amp;rdquo;. Ни один код не является префиксом другого. Буквы могут быть перечислены в любом порядке. В качестве букв могут встречаться лишь строчные буквы латинского алфавита; каждая из этих букв встречается в строке хотя бы один раз.</description>
     </item>
