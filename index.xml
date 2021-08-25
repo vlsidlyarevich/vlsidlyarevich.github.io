@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pepestic blog</title>
+    <title>Pepesting blog</title>
     <link>https://vlsidlyarevich.github.io/</link>
-    <description>Recent content on Pepestic blog</description>
+    <description>Recent content on Pepesting blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 23 May 2021 15:53:35 +0300</lastBuildDate><atom:link href="https://vlsidlyarevich.github.io/index.xml" rel="self" type="application/rss+xml" />
@@ -54,7 +54,7 @@ import java.util.Scanner; /** * Main * * @author Vladislav Sidlyarevich &amp;lt;
       
       <guid>https://vlsidlyarevich.github.io/posts/2021-03-14/</guid>
       <description>Описание задачи Первая строка содержит количество предметов 1≤n≤10^3 и вместимость рюкзака 0≤W≤2⋅10^6. Каждая из следующих nn строк задаёт стоимость 0≤ci≤2⋅10^6 и объём 0&amp;lt;wi≤2⋅10^6 предмета (n, W, c, w) — целые числа). Выведите максимальную стоимость частей предметов (от каждого предмета можно отделить любую часть, стоимость и объём при этом пропорционально уменьшатся), помещающихся в данный рюкзак, с точностью не менее трёх знаков после запятой.
-Надежный шаг Надежным шагом является выбор максимального кол-ва предметов с наибольшей стоимостью удельной единицы Сначала нужно отсортировать предметы в порядке уменьшения стоимости удельной единицы а после брать по максимуму</description>
+Надежный шаг Надежным шагом является выбор максимального кол-ва предметов с наибольшей стоимостью удельной единицы.</description>
     </item>
     
     <item>
@@ -85,6 +85,15 @@ import java.math.BigInteger; import java.util.Scanner; /** * Main * * @author Vl
       <guid>https://vlsidlyarevich.github.io/posts/2021-02-16/</guid>
       <description>Описание задачи Дано число 1≤n≤10^7, необходимо найти последнюю цифру n-го числа Фибоначчи. Как мы помним, числа Фибоначчи растут очень быстро, поэтому при их вычислении нужно быть аккуратным с переполнением. В данной задаче, впрочем, этой проблемы можно избежать, поскольку нас интересует только последняя цифра числа Фибоначчи: если 0≤a,b≤9 — последние цифры чисел F(i) F и F(i+1) соответственно, то (a+b) mod10 — последняя цифра числа F(i+2).
 import java.util.Scanner; public class Main { public static void main(String[] args) { Scanner scanner = new Scanner(System.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vlsidlyarevich.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vlsidlyarevich.github.io/about/</guid>
+      <description>Hello there, mate 👋 Dat is my blog. You can find there:  Java stuff Algos (which i don&amp;rsquo;t know, lol) Book articles Pepe stuff  Social Links  Blog - link Linkedin - link Gmail - vlsidlyarevich@gmail.com P.S. You can visit pepe-mate solairove-pepe for more softpepe content.</description>
     </item>
     
   </channel>

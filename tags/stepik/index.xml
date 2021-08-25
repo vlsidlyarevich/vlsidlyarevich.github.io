@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>stepik on Pepestic blog</title>
+    <title>stepik on Pepesting blog</title>
     <link>https://vlsidlyarevich.github.io/tags/stepik/</link>
-    <description>Recent content in stepik on Pepestic blog</description>
+    <description>Recent content in stepik on Pepesting blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 23 May 2021 15:53:35 +0300</lastBuildDate><atom:link href="https://vlsidlyarevich.github.io/tags/stepik/index.xml" rel="self" type="application/rss+xml" />
@@ -54,7 +54,7 @@ import java.util.Scanner; /** * Main * * @author Vladislav Sidlyarevich &amp;lt;
       
       <guid>https://vlsidlyarevich.github.io/posts/2021-03-14/</guid>
       <description>Описание задачи Первая строка содержит количество предметов 1≤n≤10^3 и вместимость рюкзака 0≤W≤2⋅10^6. Каждая из следующих nn строк задаёт стоимость 0≤ci≤2⋅10^6 и объём 0&amp;lt;wi≤2⋅10^6 предмета (n, W, c, w) — целые числа). Выведите максимальную стоимость частей предметов (от каждого предмета можно отделить любую часть, стоимость и объём при этом пропорционально уменьшатся), помещающихся в данный рюкзак, с точностью не менее трёх знаков после запятой.
-Надежный шаг Надежным шагом является выбор максимального кол-ва предметов с наибольшей стоимостью удельной единицы Сначала нужно отсортировать предметы в порядке уменьшения стоимости удельной единицы а после брать по максимуму</description>
+Надежный шаг Надежным шагом является выбор максимального кол-ва предметов с наибольшей стоимостью удельной единицы.</description>
     </item>
     
     <item>
